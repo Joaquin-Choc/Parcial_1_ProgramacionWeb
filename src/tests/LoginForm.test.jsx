@@ -42,7 +42,7 @@ describe('LoginForm', () => {
     const passwordInput = screen.getByLabelText('Contraseña');
     const loginButton = screen.getByText('Iniciar sesión');
 
-    // Llenar todos los campos
+    
     fireEvent.change(clientCodeInput, { target: { value: 'CLIENT123' } });
     fireEvent.change(usernameInput, { target: { value: 'user1' } });
     fireEvent.change(passwordInput, { target: { value: 'password123' } });
