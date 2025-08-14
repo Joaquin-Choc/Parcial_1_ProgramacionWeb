@@ -7,10 +7,10 @@ function App() {
   const [userData, setUserData] = useState(null);
 
   const handleLogin = (loginData) => {
-    // Aquí iría la lógica real de autenticación
+  
     console.log('Datos de login recibidos:', loginData);
     
-    // Simulamos una autenticación exitosa
+    
     setIsAuthenticated(true);
     setUserData({
       clientCode: loginData.clientCode,
